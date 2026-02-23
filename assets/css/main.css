@@ -8,7 +8,7 @@
 #head .title {
   font-family: Alice, Georgia, serif;
   font-size: 49px;
-  font-size: 3.0625rem;
+  font-size: 3.8rem;
   font-weight: bold;
 }
 #head .title a {
@@ -18,7 +18,7 @@
 #head .title2 {
   font-family: Alice, Georgia, serif;
   font-size: 49px;
-  font-size: 3.0625rem;
+  font-size: 2.8rem;
 }
 #head .title2 a {
   text-decoration: none;
@@ -34,8 +34,8 @@
   margin: 5px 0 0;
 }
 #head .tagline b {
-  font-weight: bold;
-  font-size: 24px;
+  font-size: 35px;
+  color: #ffffff;
 }
 #head .tagline a {
   font-weight: bold;
@@ -274,8 +274,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #d52349;
-		text-decoration: underline;
+		color: #313131;
 	}
 
 		a:hover {
@@ -1759,7 +1758,9 @@ input, select, textarea {
 
 		.box.post header > p {
 			margin-top: 1.25em;
-			font-size: 1.25em;
+			font-size: 1.5em;
+			letter-spacing: 0.01em;
+			line-height:1.3em;
 		}
 
 		.box footer ul.actions {
@@ -2243,10 +2244,10 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			color: #252122;
+			color: #ffffff;
 			font-weight: 900;
-			font-size: 2.5em;
-			letter-spacing: -0.035em;
+			font-size: 3em;
+			letter-spacing: 0.032m;
 			line-height: 1;
 		}
 
@@ -2262,7 +2263,9 @@ input, select, textarea {
 
 			#nav > ul > li {
 				display: inline-block;
-				font-style: italic;
+				font-style: Calibri;
+				font-weight: 350;
+				font-size: 1.35em;
 				margin: 0 0.35em 0 0.35em;
 			}
 
@@ -2272,7 +2275,7 @@ input, select, textarea {
 
 				#nav > ul > li > a {
 					border-radius: 5px;
-					color: #5d5d5d;
+					color: #000000;
 					text-decoration: none;
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					-moz-transition: background-color .25s ease-in-out;
@@ -2283,7 +2286,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
-					background: #f3f3f3;
+					background: #d3d2d2;
 				}
 
 				#nav > ul > li.current > a {
@@ -2343,7 +2346,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/background_paper_image.jpg");
+		background: #CCE8F4 url("../../images/background_ev.jpg");
 		background-position: center center;
 		/*background-size: auto 100%;*/
 		background-size: cover;
@@ -2373,7 +2376,7 @@ input, select, textarea {
 			}
 
 			#banner header p {
-				color: #d52349;
+				color: #ffffff;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
