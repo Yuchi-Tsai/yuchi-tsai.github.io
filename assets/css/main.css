@@ -56,6 +56,8 @@
 }
 .circular-big-image {
   overflow: hidden;
+  width: 280px;
+  height: 280px;
   border: 9px solid rgba(0, 0, 0, 0.05);
   margin: 0 auto;
   border-radius: 50%; /* Creates a circular shape */
@@ -2290,7 +2292,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li.current > a {
-					background: #2d4263;
+					background: #02431a;
 					color: #fff !important;
 					font-weight: 700;
 				}
@@ -2310,12 +2312,13 @@ input, select, textarea {
 	}
 
 		.dropotron a, .dropotron span {
-			color: #aaa;
+			color: #ffffff;
 			text-decoration: none;
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;
 			-ms-transition: color .25s ease-in-out;
 			transition: color .25s ease-in-out;
+			font-size: 1.2em;
 		}
 
 		.dropotron li {
